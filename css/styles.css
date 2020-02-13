@@ -25,4 +25,7 @@
     text-shadow: 20px 15px 5px lightslategray;
 }
 
- 
+.description p{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 27px;
+}
