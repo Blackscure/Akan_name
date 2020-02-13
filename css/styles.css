@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 100px;
+}
+  
+.navbar-style{
+    box-shadow: 0 5px 10px black;
+     
+}
