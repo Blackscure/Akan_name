@@ -26,29 +26,59 @@
       <div id="heading">
         <h3>Ghanian culture of Giving Names.</h3>
       </div>
-      <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+      <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>s
     </section>
      
     <!--birthday-->
-    
-      <div class="container"> 
-          <div id="ridge"> 
-              <form>
-              <h3>welcome to Birthday form</h3>
-              <label for="date" required="">Date</label>
-              <input type="text" required name="Date" id="date"><br><br>
-              <label for="month">Month</label>
-              <input type="month" name="Month" id="month"><br><br>
-              <label for="year">Year</label>
-              <input type="year" name="Year" id="year"><br><br>
-              <input type="radio" id="male" name="gender" value="male">
-              <label for="male">Male</label><br>
-              <input type="radio" id="female" name="gender" value="female">
-              <label for="female">Female</label><br>
-              <button class="btn success" onclick="getName">Submit</button>
-              </form>
+    <div class="container">
+      <h1>Please File below</h1>
+      <div class="row">
+        <form class="col s6" id="myForm" novalidate>
+          <div class="row">
+            <div class="input-field col s6">
+              <label for="date">Date</label>
+              <input
+                type="number"
+                name="Date"
+                id="date"
+                onfocusout="validateFirstName()"
+              /><br><br>
+              <span class="helper-text"></span>
+            </div>
+            </div>
           </div>
-  </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="year">Month</label>
+              <input
+                type="number"
+                name="Month"
+                id="month"
+                onfocusout="validateEmail()"
+              /><br><br>
+              <span class="helper-text"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="year">Year</label>
+              <input
+                type="number"
+                name="Year"
+                id="year"
+                onfocusout="validateEmail()"
+              /><br><br>
+              <span class="helper-text"></span>
+            </div>
+          </div><br>
+          <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+          <button class="btn waves-effect waves-light" type="submit">
+            Submit
+          </button>
+        </form>
   <script src="js/script.js"></script> 
 </body>
 </html>
