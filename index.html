@@ -30,55 +30,21 @@
     </section>
      
     <!--birthday-->
-    <div class="container">
-      <h1>Please File below</h1>
-      <div class="row">
-        <form class="col s6" id="myForm" novalidate>
-          <div class="row">
-            <div class="input-field col s6">
-              <label for="date">Date</label>
-              <input
-                type="number"
-                name="Date"
-                id="date"
-                onfocusout="validateFirstName()"
-              /><br><br>
-              <span class="helper-text"></span>
-            </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <label for="year">Month</label>
-              <input
-                type="number"
-                name="Month"
-                id="month"
-                onfocusout="validateEmail()"
-              /><br><br>
-              <span class="helper-text"></span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <label for="year">Year</label>
-              <input
-                type="number"
-                name="Year"
-                id="year"
-                onfocusout="validateEmail()"
-              /><br><br>
-              <span class="helper-text"></span>
-            </div>
-          </div><br>
-          <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-          <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br><br>
-          <button class="btn waves-effect waves-light" type="submit">
-            Submit
-          </button>
-        </form>
+    <div class="form">
+      <label>YEAR OF BIRTH</label><br>
+      <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value="" />
+      <br><br>
+      <label>BIRTH MONTH:</label><br>
+      <input type="number" id="month" min="01" max="12" step="1" placeholder="MM" value="" /><br><br>
+      <label>Day OF BIRTH </label><br>
+      <input type="number" name="DAY" id="day" min="01" max="31" placeholder="DD" value=""><br><br>
+      <label>GENDER</label><br>
+      <div id="gender">
+        <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+      </div>
+      <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">
+    </div>
   <script src="js/script.js"></script> 
 </body>
 </html>
