@@ -4,47 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>A simple birth page</title>
+    <title>Akan name System</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
-    <link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400i&display=swap" rel="stylesheet"> 
-</head>
-<body>
-    <!--Header -->
-    <header class="header">
-      <nav class="navbar-style">
-          <div class="container">
-              <div class="navbar-header">
-                  <a href=""><img class="logo" src="img/egle.jpeg"></a>
-                  </div>
-              </header>
+     <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--description section-->
-    <section class="description">
-      <div id="heading">
-        <h3>Ghanian culture of Giving Names.</h3>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+</head>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Akan Names</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          </li>
+        </ul>
       </div>
-      <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>s
-    </section>
-     
-    <!--birthday-->
-    <div class="form">
-      <label>YEAR OF BIRTH</label><br>
-      <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value="" />
-      <br><br>
-      <label>BIRTH MONTH:</label><br>
-      <input type="number" id="month" min="01" max="12" step="1" placeholder="MM" value="" /><br><br>
-      <label>Day OF BIRTH </label><br>
-      <input type="number" name="DAY" id="day" min="01" max="31" placeholder="DD" value=""><br><br>
-      <label>GENDER</label><br>
-      <div id="gender">
-        <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female">Female<br>
-      </div>
-      <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">
     </div>
-  <script src="js/script.js"></script> 
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Akan Names</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Akan Names is a Ghanian Culture Way Of Giving Names.</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Description About The Ghanian Culture</h2>
+          <p class="text-white-50">Akan is the language of the people called akan.Akan names are derived from Ghanian culture.
+            children are given their first name as a 'day name' which corresponds to the day in the week they were born
+            It is a cultural event held with high esteem and passed to tradition.
+            These "day names" have further meanings concerning the soul and character of the person</p>
+        </div>
+      </div>
+      <img src="img/ipad.png" class="img-fluid" alt="">
+    </div>
+  </section>
+ 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
 </body>
 </html>
