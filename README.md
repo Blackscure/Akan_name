@@ -21,6 +21,9 @@ The is able to enter his/her birthday Credential then he/she will recieve an out
 3. Google Fonts
 4. Fontaswome
 
+## Link to live site on GitHub Pages
+[View the page](https://blackscure.github.io/Moringa_week2_project/)
+
 ## Contact information
 [Facebook](https://www.facebook.com/muamar.hamim.5)
 
