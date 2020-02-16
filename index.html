@@ -128,6 +128,37 @@
           </div>
         </div>
       </div>
+      <!-- Signup Section -->
+       <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Fill To See Your Akan Name</h2>
+
+          <form class="form">
+            <label>YEAR OF BIRTH</label><br>
+            <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value="" />
+              <br><br>
+          <label>BIRTH MONTH:</label><br>
+            <input type="number" id="month" min="01" max="12" step="1" placeholder="MM" value="" /><br><br>
+          <label>Day OF BIRTH </label><br>
+              <input type="number" name="DAY" id="day" min="01" max="31" placeholder="DD" value=""><br><br>
+          <label>GENDER</label><br>
+      <div id="gender">
+          <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female">Female<br>
+      </div>
+      <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">
+    </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
